@@ -1,17 +1,19 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
-    <ion-title>
-      Blank
-    </ion-title>
+    <H4>Login</H4>
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Blank</ion-title>
-    </ion-toolbar>
-  </ion-header>
+  
+
+  <br><br><br>
+
+  <ion-input >Nombre de Usuario<ion-icon name="arrow-forward-outline"></ion-icon>  </ion-input>
+  <ion-input type="password">Contraseña<ion-icon name="arrow-forward-outline"></ion-icon></ion-input>
+
+
+  <ion-button  [routerLink]="'/login'" color="black">Iniciar sesion <ion-icon name="arrow-redo-outline"></ion-icon></ion-button>
 
   
 </ion-content>
